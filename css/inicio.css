@@ -18,6 +18,9 @@ main {
   flex: 1 0 auto;
 }
 
+#contenedor{
+  margin-top: 2em;
+}
 
 @media (min-width:960px){
   #tarjeta{
@@ -31,4 +34,13 @@ main {
     margin: 4em auto;
     width: 100%;
   }
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: #e91e63;
+}
+
+input[type=range] + .thumb {
+  background-color: #e91e63; 
 }

@@ -3,15 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Momentos Tec</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/inicio.css">
 
 </head>
 
-<body>
+<body class="deep-orange lighten-1">
 	<nav>
-    <div class="nav-wrapper deep-orange">
-      <a href="inicio.html" class="brand-logo center">Logo</a>
+    <div class="nav-wrapper deep-orange lighten-1">
+      <a href="inicio.html" class="brand-logo center">Momentos Tec</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li><a href="construccion.html">Acerca de</a></li>
         <li><a href="construccion.html">Agregar experiencia</a></li>
@@ -22,35 +23,44 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col s12 m12">
-          <a class"waves-effect waves-light btn" href="empatia.html">
-          <div id="tarjeta" class="card pink lighten-1 darken-1">
-            <div class="card-content white-text center-align">
-              <div class="row">
-                <div class="col s4">
-                  <i id="icono"class="mdi-hardware-keyboard-alt large right"></i>
-                </div>
-                <div class="col s8">
-                  <h1>Empatía</h1>
-                </div>
+        <div class="col s12">
+          <div id="contenedor" class="z-depth-3 card-panel white">
+
+            <div class="row">
+              <div class="col s12 m12">
+                <a class"waves-effect waves-light btn" href="empatia.html">
+                  <div id="tarjeta" class="card pink lighten-1 darken-1">
+                    <div class="card-content white-text center-align">
+                      <div class="row">
+                        <div class="col s4">
+                          <i id="icono"class="mdi-hardware-keyboard-alt large right"></i>
+                        </div>
+                        <div class="col s8">
+                          <h1>Empatía</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+            <form action="#">
+              <p class="range-field">
+                <input onchange="cambiarColor()" type="range" id="sliderPrincipal" min="0" max="100" />
+              </p>
+            </form>
           </div>
-          </a>
         </div>
       </div>
-      <form action="#">
-        <p class="range-field">
-          <input type="range" id="test5" min="0" max="100" />
-        </p>
-      </form>
     </div>
+
+
   </main>
-  <footer class="page-footer deep-orange">
-    <div class="footer-copyright deep-orange">
-      <div class="container deep-orange">
+  <footer class="page-footer deep-orange lighten-1">
+    <div class="footer-copyright deep-orange lighten-1">
+      <div class="container deep-orange lighten-1">
         © 2015
-        <a class=" grey-text text-lighten-4 right deep-orange" href="https://github.com/Irvel">Github</a>
+        <a class=" grey-text text-lighten-4 right deep-orange lighten-1" href="https://github.com/Irvel">Github</a>
       </div>
     </div>
   </footer>
@@ -58,5 +68,6 @@
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
