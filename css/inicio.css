@@ -6,3 +6,17 @@
 .palabra{
 	width: 24em;
 }
+
+@media (min-width:960px){
+  #tarjeta{
+    margin: 2em auto;
+    width: 60%;
+  }
+}
+
+@media (max-width:960px){
+  #tarjeta{
+    margin: 2em auto;
+    width: 100%;
+  }
+}
