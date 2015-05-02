@@ -9,8 +9,8 @@
 
 </head>
 
-<body class="deep-orange lighten-1">
-	<nav class="deep-orange lighten-1">
+<body class="pink lighten-1" id="cuerpo">
+	<nav class="pink lighten-1" id="barra">
     <div class="nav-wrapper container">
       <a href="inicio.html" class="brand-logo center">Momentos Tec</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -34,7 +34,7 @@
             <div class="row">
               <div class="col s12 m12">
                 <a class"waves-effect waves-light btn" href="empatia.html">
-                  <div id="tarjeta" class="card pink lighten-1 darken-1">
+                  <div id="tarjeta" class="card pink lighten-1">
                     <div class="card-content white-text center-align">
                       <div class="row">
                         <div class="col s4">
@@ -49,11 +49,10 @@
                 </a>
               </div>
             </div>
-            <form action="#">
-              <p class="range-field">
-                <input onchange="cambiarColor()" type="range" id="sliderPrincipal" min="0" max="100" />
-              </p>
-            </form>
+            <div class="center-align">
+            <input class="color" onchange="cambiarColor()" value="ec407a" style="margin : 0 auto; display: block; text-align: center;" >
+            </div>
+
           </div>
         </div>
       </div>
@@ -61,11 +60,11 @@
 
 
   </main>
-  <footer class="page-footer deep-orange lighten-1">
-    <div class="footer-copyright deep-orange lighten-1">
-      <div class="container deep-orange lighten-1">
+  <footer class="page-footer pink lighten-1">
+    <div class="footer-copyright pink lighten-1">
+      <div class="container pink lighten-1">
         © 2015
-        <a class=" grey-text text-lighten-4 right deep-orange lighten-1" href="https://github.com/Irvel">Github</a>
+        <a class=" grey-text text-lighten-4 right pink lighten-1" href="https://github.com/Irvel">Github</a>
       </div>
     </div>
   </footer>
@@ -75,5 +74,7 @@
 	<script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript" src="jscolor/jscolor.js"></script>
+
 </body>
 </html>
